@@ -9,6 +9,16 @@
     <groupId>io.swagger</groupId>
     <artifactId>swagger-codegen-project</artifactId>
     <packaging>pom</packaging>
+    <distributionManagement>
+        <repository>
+            <id>dell</id>
+            <url>https://artifactory.labs.dell.com/artifactory/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>dell-snapshot</id>
+            <url>https://artifactory.labs.dell.com/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
     <name>swagger-codegen-project</name>
     <version>2.2.0p1</version>
     <url>https://github.com/swagger-api/swagger-codegen</url>
